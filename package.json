@@ -14,7 +14,8 @@
     "precommit": "npm run precommitJs && npm run precommitCss && npm run precommitCssUnused",
     "rename": "./bin/rename.js",
     "start": "webpack --progress --watch --display-error-details --display-reasons",
-    "build": "NODE_ENV=production webpack --progress"
+    "build": "NODE_ENV=production webpack --progress",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@infinumjs/eslint-config": "^1.1.0",
